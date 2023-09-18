@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+    background-color: rgb(121, 99, 113);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
