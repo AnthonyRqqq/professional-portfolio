@@ -14,3 +14,16 @@ header {
     text-align: center;
     display: block;
 }
+
+.about-me {
+    display: inline-flex;
+}
+
+.about-me p {
+    margin-left: 50%;
+}
+
+#profile-picture {
+    max-height: 500px;
+    text-align: left;
+}
