@@ -1,33 +1,17 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 10px;
-    background-color: #4858ee;
-
+    margin: 0;
+    background-color: rgb(230, 218, 202);
 }
 
-header {
-    display: inline;
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #subheader {
-    text-align: center;
-    display: block;
-}
-
-.about-me {
-    display: inline-flex;
-}
-
-.about-me p {
-    margin-left: 50%;
-}
-
-#profile-picture {
-    max-height: 500px;
-    text-align: left;
-}
-
-#code-refactor-screenshot {
-    max-height: 500px;
+    display: flex;
+    justify-content: center;
 }
