@@ -5,6 +5,10 @@
     background-color: rgb(230, 218, 202);
 }
 
+body {
+    margin: 0, auto;
+}
+
 #main-header {
     display: flex;
     justify-content: space-between;
@@ -14,4 +18,45 @@
 #subheader {
     display: flex;
     justify-content: center;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+#profile-picture {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 250px;
+    border: solid; color: rgb(71, 71, 71);
+    border-radius: 20%;
+
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#code-refactor {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 100%
+}
+
+#placeholder-1,
+#placeholder-2 {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 50%;
+}
+
+.contact-me,
+#contact-me-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
