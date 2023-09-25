@@ -3,6 +3,25 @@
     padding: 0;
     margin: 0;
     background-color: rgb(230, 218, 202);
+    font-family: Apple Chancery, cursive;
+}
+
+header {
+    padding: 40px;
+    background-color: #3A445D;
+}
+
+header a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header * {
+    background-color: #3A445D;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 body {
@@ -18,9 +37,11 @@ body {
 #subheader {
     display: flex;
     justify-content: center;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
-.about-me {
+#about-me {
     display: flex;
     justify-content: space-around;
 }
@@ -34,27 +55,60 @@ body {
 
 }
 
-.work {
+#work-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#code-refactor-screenshot {
+    display: flex;
+    flex: 1 2 0;
+    max-height: 500px;
+}
+
+#code-refactor p {
+    display: inline-flex;
+    flex: 1 1 0;
+    position: relative;
+    bottom: 48px;
+    font-size: 30px;
+}
+
+
+.work-other {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#code-refactor {
-    display: flex;
-    flex: 1 1 0;
-    max-width: 100%
-}
-
 #placeholder-1,
 #placeholder-2 {
     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
     flex: 1 1 0;
     max-width: 50%;
 }
 
-.contact-me,
+.work-screenshot {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.work-other p {
+    display: inline-flex;
+    align-self: flex-end;
+    flex: 1 1 0;
+    position: relative;
+    right: 525px;
+}
+
+#contact-me-main,
 #contact-me-sidebar {
     display: flex;
     flex-direction: column;
