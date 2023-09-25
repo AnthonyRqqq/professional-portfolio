@@ -128,9 +128,22 @@ body {
     right: 525px;
 }
 
-#contact-me-main,
-#contact-me-sidebar {
+#contact-me *,
+#contact-me-header * {
+    background-color: #3A445D;
+}
+
+#contact-me-header {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#contact-me,
+#contact-me-header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #3A445D;
+    padding: 10px;
+    font-size: 20px;
 }
