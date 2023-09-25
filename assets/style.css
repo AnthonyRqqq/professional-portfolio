@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     background-color: rgb(230, 218, 202);
-    font-family: Apple Chancery, cursive;
+    font-family: American Typewriter, serif;
 }
 
 header {
@@ -13,7 +13,6 @@ header {
 
 header a {
     color: inherit;
-    text-decoration: inherit;
 }
 
 header * {
@@ -24,9 +23,11 @@ h1 {
     font-size: 50px;
 }
 
+
 body {
     margin: 0, auto;
 }
+
 
 #main-header {
     display: flex;
@@ -43,16 +44,35 @@ body {
 
 #about-me {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 #profile-picture {
     display: flex;
     flex: 1 1 0;
-    max-width: 250px;
-    border: solid; color: rgb(71, 71, 71);
+    max-width: 300px;
+    border: solid; color: #3A445D;
     border-radius: 20%;
+    border-width: 10px;
 
+}
+
+#about-me-text {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me-header * {
+    background-color: #3A445D;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 #work-main {
