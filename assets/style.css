@@ -80,6 +80,7 @@ h1 {
 #work {
     display: flex;
     flex: row;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -95,6 +96,7 @@ h1 {
 #work-main {
     display: flex;
     flex-wrap: wrap;
+    flex: 1 2 0;
     justify-content: center;
     align-items: center;
     flex: column;
@@ -134,6 +136,7 @@ h1 {
 
 .work-screenshot {
     display: flex;
+    flex-wrap: wrap;
     align-self: center;
     justify-content: center;
     flex: 1 1 0;
