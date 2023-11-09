@@ -6,6 +6,12 @@
     font-family: American Typewriter, serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
 header {
     padding: 40px;
     background-color: #3A445D;
@@ -79,9 +85,10 @@ h1 {
 
 #work {
     display: flex;
-    flex: row;
-    flex-wrap: wrap;
+    /* flex: row; */
+    /* flex-wrap: wrap; */
     padding: 20px;
+    min-width: 100%;
 }
 
 #work-header {
@@ -104,8 +111,9 @@ h1 {
     border-width: 0px 10px;
 }
 
-#code-refactor-screenshot {
+#dojo-screenshot {
     display: flex;
+    min-width: 100%;
     flex: 1 2 0;
     max-height: 500px;
 }
@@ -149,7 +157,11 @@ h1 {
 
 }
 
-#contact-me *,
+#contact-me {
+    display: inline;
+}
+
+#contact-me-details *,
 #contact-me-header * {
     background-color: #3A445D;
 }
@@ -159,7 +171,7 @@ h1 {
     text-decoration: underline;
 }
 
-#contact-me,
+#contact-me-details,
 #contact-me-header {
     display: flex;
     flex-direction: column;
